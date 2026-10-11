@@ -59,3 +59,6 @@ zero clipped, zero collapsed. Three iterations were needed: Framer's own `aspect
 were not trustworthy (1:1 boxes on 766 by 929 images), column flex items with `flex-basis: 0`
 collapsed until `flex-basis: auto`, and height-driven filmstrip and slideshow boxes collapsed
 until width was left alone.
+
+## [2026-10-11] Google Analytics
+GA4 tag (G-T4V0NG46T8, stream "GH Portfolio") added right after `<head>` on all seven pages. No visual change. Load-checked every page at 1280 and 375.
