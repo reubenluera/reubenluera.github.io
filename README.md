@@ -1,12 +1,17 @@
 # Reuben Luera Portfolio
 
-Static rebuild of the Framer portfolio (reubenluera.framer.website), generated from the
-Framer project tree and self-hosting every image under `assets/images/`.
+Live at https://reubenluera.github.io/ (GitHub Pages, branch `main`, root).
 
-- `index.html` plus one folder per case study (`/stasis/`, `/survey/`, `/optimizing/`,
-  `/aiftv/`, `/aiftv-2/`, `/aionfiretvfake/`, `/mllmjudge/`)
-- `assets/base.css`, `assets/site.js`: shared styles and the small amount of JS
-  (scroll reveal, before/after slider, carousels, phone menu)
-- Fonts load from Google Fonts (Inter, Inter Tight, Montserrat, Nunito, Plaster, Unbounded)
+Static site: `index.html` plus one folder per case study (`mllmjudge/`, `aiftv-2/`, `optimizing/`,
+`aiftv/`, `survey/`, `stasis/`). Shared styles in `assets/base.css`, generated figure sizing in
+`assets/figures.css`, the small amount of JS in `assets/site.js`. Fonts load from Google Fonts.
 
-Serve locally with any static server, e.g. `python -m http.server 8765`.
+Start here:
+
+- `CLAUDE.md` is the contract for the agent that maintains the site: rules, workflows, pitfalls.
+- `wiki/index.md` is the knowledge base entry point (structure, hero pipeline, QA, deploy,
+  decisions, backlog, log). The `wiki/` folder opens as an Obsidian vault.
+- `tools/` holds the generators and QA helpers. Python 3 with Pillow and NumPy.
+
+Serve locally with any static server, e.g. `python -m http.server 8765`, or use the `portfolio`
+entry in `.claude/launch.json`.
