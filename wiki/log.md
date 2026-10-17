@@ -62,3 +62,6 @@ until width was left alone.
 
 ## [2026-10-11] Google Analytics
 GA4 tag (G-T4V0NG46T8, stream "GH Portfolio") added right after `<head>` on all seven pages. No visual change. Load-checked every page at 1280 and 375.
+
+## [2026-10-17] Copy fixes and new resume
+MLLM: the four-themes figure caption said 8 designers; repainted as `mllm-themes-10-designers.webp` by `tools/fig_themes_caption.py` (source image untouched). Study Scale card and "What happened" now split qual (10 designers, 30 interfaces) from quant (500 raters per design, 15,000 responses). Stasis: tools are Figma only. AI on Fire TV Search: "(video below)" is now "(video attached)". Resume links on all seven pages point to `assets/Reuben_Luera_Resume.pdf` (the 2-page resume with the phone number removed from the PDF text) instead of the old Google Drive file.
