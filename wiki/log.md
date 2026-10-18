@@ -65,3 +65,6 @@ GA4 tag (G-T4V0NG46T8, stream "GH Portfolio") added right after `<head>` on all 
 
 ## [2026-10-17] Copy fixes and new resume
 MLLM: the four-themes figure caption said 8 designers; repainted as `mllm-themes-10-designers.webp` by `tools/fig_themes_caption.py` (source image untouched). Study Scale card and "What happened" now split qual (10 designers, 30 interfaces) from quant (500 raters per design, 15,000 responses). Stasis: tools are Figma only. AI on Fire TV Search: "(video below)" is now "(video attached)". Resume links on all seven pages point to `assets/Reuben_Luera_Resume.pdf` (the 2-page resume with the phone number removed from the PDF text) instead of the old Google Drive file.
+
+## [2026-10-17] Google Scholar in the top nav
+"Google Scholar" (https://scholar.google.com/citations?user=Ov2HGFQAAAAJ) added after LinkedIn in the desktop and tablet nav on all seven pages, and as "Scholar" in the phone nav. Phone nav now shrinks the wordmark and links at 420px and 360px so three links fit. Fixed an older bug: on the five case studies with the white phone header (variant JL91ug0ci) the phone nav links were white on white; they are now navy. base.css bumped to nv2.

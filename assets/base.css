@@ -87,4 +87,8 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .prose p{margin:0}
 .prose strong{font-weight:800;color:#111318}
 @media (max-width:809.98px){.prose{font-size:16px}}
-
+/* phone nav with three links (Resume, LinkedIn, Scholar): shrink wordmark and links on narrow phones */
+@media (max-width:420px){.nav-phone-links{right:12px;gap:10px;font-size:12px}[data-variant="x9P66OzGx"] .rt,[data-variant="JL91ug0ci"] .rt,[data-variant="x9P66OzGx"] .rt *,[data-variant="JL91ug0ci"] .rt *{font-size:15px!important}}
+@media (max-width:360px){.nav-phone-links{right:10px;gap:8px;font-size:11px}[data-variant="x9P66OzGx"] .rt,[data-variant="JL91ug0ci"] .rt,[data-variant="x9P66OzGx"] .rt *,[data-variant="JL91ug0ci"] .rt *{font-size:13px!important}}
+/* case study pages use the white phone header (variant JL91ug0ci): links in the wordmark navy, not white */
+[data-variant="JL91ug0ci"] .nav-phone-links a{color:#0e1a3c}
